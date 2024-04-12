@@ -13,7 +13,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - name: frontend
-        image: tkarsh098/go-react-fullstack-chat-frontend:01
-        ports:
-        - containerPort: 3000
+        - name: frontend
+          image: utkarsh098/go-react-fullstack-chat-frontend:01
+          ports:
+            - containerPort: 3000
